@@ -1,0 +1,17 @@
+/* Header styling */
+.layout{
+    border: 1px solid black;
+    height: calc(100vh - 10px);
+    .header{
+        height: 5vh;
+        border: 1px solid;
+        padding: 10px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 5px;
+        height: 5vh;
+        border: 1px solid black;
+        width: 99%;
+    }
+}
